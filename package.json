@@ -1,0 +1,23 @@
+{
+    "private": true,
+    "name": "opencomponents.com",
+    "version": "0.0.1",
+    "description": "An open source JavaScript component library",
+    "license": "Apache-2.0",
+    "author": "Syed Tajir Hasnain <tajircuet@gmail.com> (https://tajirhasnain.com)",
+    "type": "module",
+    "scripts": {
+        "lint": "eslint --cache .",
+        "test": "vitest --dom",
+        "test:watch": "vitest --dom --watch"
+    },
+    "devDependencies": {
+        "@vitest/coverage-v8": "^2.1.8",
+        "eslint": "^9.17.0",
+        "happy-dom": "^16.3.0",
+        "prettier": "^3.4.2",
+        "typescript": "^5.7.2",
+        "typescript-eslint": "^8.19.0",
+        "vitest": "^2.1.8"
+    }
+}

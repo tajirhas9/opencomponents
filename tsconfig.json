@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./packages",
+        "exclude": ["node_modules", "dist"],
+        "isolatedModules": true,
+        "module": "es2022",
+        "moduleResolution": "bundler",
+        "paths": {
+            "core": ["core"]
+        },
+        "target": "es2022"
+    }
+}

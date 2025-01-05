@@ -1,0 +1,23 @@
+{
+    "name": "@opencomponents/core",
+    "version": "0.0.1",
+    "types": "./dist/index.d.ts",
+    "exports": {
+        "@core/textbox": {
+            "module": "./dist/textbox.esm.js",
+            "import": "./dist/textbox.esm.js"
+        }
+    },
+    "buildOptions": {
+        "name": "OpenComponentsCore",
+        "formats": [
+            "esm-bundler",
+            "esm-browser"
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "directory": "packages/core"
+    },
+    "author": "Syed Tajir Hasnain <tajircuet@gmail.com> (https://tajirhasnain.com)"
+}
