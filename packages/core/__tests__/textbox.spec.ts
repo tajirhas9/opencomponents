@@ -1,6 +1,6 @@
 // sum.test.js
 import { beforeEach, describe, expect, test } from 'vitest'
-import TextBox from '../textbox'
+import TextBox from '../src/textbox'
 
 interface TestContext {
     textBox: TextBox
