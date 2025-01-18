@@ -2,10 +2,13 @@
     "name": "@opencomponents/core",
     "version": "0.0.1",
     "types": "./dist/index.d.ts",
+    "scripts": {
+        "build": "vite build"
+    },
     "exports": {
-        "@core/textbox": {
-            "module": "./dist/textbox.esm.js",
-            "import": "./dist/textbox.esm.js"
+        ".": {
+            "module": "./dist/index.es.js",
+            "import": "./dist/index.es.js"
         }
     },
     "buildOptions": {

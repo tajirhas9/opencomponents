@@ -1,6 +1,6 @@
 import BaseComponent from './_base'
 
-export default class TextBox extends BaseComponent<TextBoxConfig> {
+class TextBox extends BaseComponent<TextBoxConfig> {
     constructor(container: string, config: TextBoxConfig) {
         const _default = {
             disabled: false,
@@ -38,3 +38,5 @@ export default class TextBox extends BaseComponent<TextBoxConfig> {
         this.render()
     }
 }
+
+export { TextBox }

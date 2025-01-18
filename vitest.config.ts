@@ -6,7 +6,13 @@ export default defineConfig({
         environment: 'happy-dom',
         coverage: {
             enabled: true,
-            exclude: ['scripts/*', ...coverageConfigDefaults.exclude],
+            exclude: [
+                'scripts/*',
+                '**/dist/*',
+                'examples/*',
+                'commitlint.config.js',
+                ...coverageConfigDefaults.exclude,
+            ],
             provider: 'v8',
             reporter: ['text', 'html'],
         },

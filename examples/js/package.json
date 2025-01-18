@@ -1,0 +1,10 @@
+{
+    "name": "@opencomponents/examples-js",
+    "private": true,
+    "scripts": {
+        "dev": "vite"
+    },
+    "dependencies": {
+        "@opencomponents/core": "file:../../packages/core"
+    }
+}
